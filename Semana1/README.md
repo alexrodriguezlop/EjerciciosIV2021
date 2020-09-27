@@ -42,13 +42,13 @@ La tabla incluye la amortización en 7 años y por consiguiente en 4.
 
 Precio anual de un servidor dedicado: 60€/Mes unos 720€/Año
 
-![](/home/alex/Escritorio/IV/EjerciciosIV2021/Semana1/2.png) 
+![2](/home/alex/Escritorio/IV/EjerciciosIV2021/Semana1/2.png) 
 
 
 
 Precio anual de un servicio de alojamiento en la nube: 100€/Mes unos 1200€/Año
 
-![](/home/alex/Escritorio/IV/EjerciciosIV2021/Semana1/1.png)  
+![1](/home/alex/Escritorio/IV/EjerciciosIV2021/Semana1/1.png)  
 
 He consultado el catalogo de PCcomponentes y he elegido este servidor:
 **HPE ProLiant DL360 Gen10 Intel Xeon Silver 4214R/32GB**
@@ -81,7 +81,7 @@ flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36
 
 ```
 
-![](/home/alex/Escritorio/IV/EjerciciosIV2021/Semana1/3.png) 
+![3](/home/alex/Escritorio/IV/EjerciciosIV2021/Semana1/3.png) 
 
 
 
@@ -93,7 +93,7 @@ flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36
 Utilizaré **Virtual box**.
 [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads) 
 
-![](/home/alex/Escritorio/IV/EjerciciosIV2021/Semana1/4.png) 
+![4](/home/alex/Escritorio/IV/EjerciciosIV2021/Semana1/4.png) 
 
 
 
