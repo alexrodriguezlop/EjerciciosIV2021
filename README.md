@@ -1,4 +1,6 @@
-# EjerciciosIV2021
+# Ejercicios IV
 Repositorio para entrega de los ejercicios de la asignatura **Infraestructuras virtuales**
 
-[EJERCICIOS](https://alexrodriguezlop.github.io/EjerciciosIV2021/)
+**Autor:** Alejandro Rodríguez López
+ 
+[Semana 1](https://https://github.com/alexrodriguezlop/EjerciciosIV2021/Semana1)
