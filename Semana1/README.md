@@ -17,7 +17,7 @@ Vamos a calcular el coste de amortización anual para 4 años,
 sabemos que el máximo de amortización anual es el 26%.
 
 0.26 * 2.147,93€ =558,46€
-Con lo cual eso sería la cantidad maxima de amortización al año suponiendo que incluyamos el año completo.
+Con lo cual eso sería la cantidad máxima de amortización al año suponiendo que incluyamos el año completo.
 
 en este caso plantearé la adquisición del equipo el día 1 de Ocutubre de 2020.
 
@@ -102,6 +102,10 @@ Utilizaré **Virtual box**.
 **Ejercicio 5)**
 *Darse de alta en una web que permita hacer pruebas con alguno de los sistemas de gestión de nube libres como los mencionados en los párrafos anteriores, aunque sea temporalmente. Si la prueba es menos de un mes, simplemente anotarlo y dejarlo para el mes de diciembre, más o menos.*
 
+He encontrado Microsoft Azure, proporciona un año gratuito de servicios aunque para algunos solo un mes. 
+Con lo que he decidido no resgistrarme aún.
+
+![5](5.png) 
 
 
 [Volver al repositorio](https://github.com/alexrodriguezlop/EjerciciosIV2021)
