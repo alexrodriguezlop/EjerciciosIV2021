@@ -79,9 +79,10 @@ En este caso particular solo hemos proporcionado un nombre.
 
 ![a](8.png)
 
-Verificamos que el despliegue ha sido correcto y la función funciona:
+Verificamos que el [despliegue](https://pruebas-vercel-five.vercel.app/api/app) ha sido correcto y la función funciona:
 
-![a](9.png)
+![a](9.png) 
+
 
 Podemos instalar Vercel y usar su Cli para trabajar desde nuestra terminal usando:
 
