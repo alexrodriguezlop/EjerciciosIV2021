@@ -1,4 +1,3 @@
-
 ### [Semana 9](http://jj.github.io/IV/documentos/temas/Serverless)
 
 **Autor:** Alejandro rodríguez López
@@ -18,7 +17,7 @@ Instalamos vercel en nuestra cuenta de GitHub, en este caso le he dado permisos 
 
 
 Mi perfil está creado y vinculado con mi cuenta de GitHub.
-es un plan HOBBY con lo cual su suo es gratuito.
+es un plan HOBBY con lo cual su uso es gratuito.
 
 ![a](3.png)
 
@@ -69,7 +68,7 @@ Importamos el repositorio de GitHub:
 
 Importamos el proyecto especificando donde se encuentran los ficheros fuente.
 
-Si nuestro proyecto dispone de ficheros complementarios y estos se encuentran en la raiz del directorio especificaremos dicho directorio.
+Si nuestro proyecto dispone de ficheros complementarios y estos se encuentran en la raíz del directorio especificaremos dicho directorio.
 
 ![a](7.png)
 
@@ -93,3 +92,45 @@ Instalamos vercel
 
 **Ejercicio 3:**
 Tomar alguna de las funciones de prueba de Netlify, y hacer despliegues de prueba con el mismo.
+
+Función usada:
+
+```
+// functions/hello.js
+exports.handler = async event => {
+    const subject = event.queryStringParameters.name || 'World'
+    return {
+      statusCode: 200,
+      body: `Hello ${subject}!`,
+    }
+  }
+```
+
+Autorizamos la aplicación en GitHub:
+
+![a](10.png) 
+
+Creamos un nuevo sitio.
+
+![a](11.png) 
+
+Partimos desde nuestro repositorio de GitHub:
+
+![a](12.png) 
+
+Establecemos los ajustes de nuestro sitio:
+
+En este caso todos los ajuste por defecto van acordes a nuestras necesidades.
+
+![a](13.png) 
+
+El sitio ha sido creado.
+
+![a](14.png) 
+
+Verificamos que el [despliegue](https://stupefied-feynman-adc3bc.netlify.app/.netlify/functions/app?name=ALEX) ha sido correcto y la función funciona:
+
+![a](15.png) 
+
+
+El despliegue en Netlify se ha hecho de a cuerdo con esta [guía](https://kentcdodds.com/blog/super-simple-start-to-netlify-functions)
