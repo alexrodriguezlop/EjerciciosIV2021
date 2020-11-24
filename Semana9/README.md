@@ -45,9 +45,50 @@ Una vez instalado nos loguearemos.
 
 **Ejercicio 2:**
 Tomar alguna de las funciones de prueba de Vercel, y hacer despliegues de prueba con el mismo.
-Instalar vercel 
+
+Tomamos un ejemplo de vercel escrito en python:
+
+```
+from http.server import BaseHTTPRequestHandler
+from datetime import datetime
+
+class handler(BaseHTTPRequestHandler):
+
+  def do_GET(self):
+    self.send_response(200)
+    self.send_header('Content-type', 'text/plain')
+    self.end_headers()
+    self.wfile.write(str(datetime.now().strftime('%Y-%m-%d %H:%M:%S')).encode())
+    return
+
+```
+Importamos el repositorio de GitHub:
+
+![a](5.png)
+![a](6.png)
+
+Importamos el proyecto especificando donde se encuentran los ficheros fuente.
+
+Si nuestro proyecto dispone de ficheros complementarios y estos se encuentran en la raiz del directorio especificaremos dicho directorio.
+
+![a](7.png)
+
+Establecemos los parámetros básicos de configuración para nuestro proyecto.
+
+En este caso particular solo hemos proporcionado un nombre.
+
+![a](8.png)
+
+Verificamos que el despliegue ha sido correcto y la función funciona:
+
+![a](9.png)
+
+Podemos instalar Vercel y usar su Cli para trabajar desde nuestra terminal usando:
+
+Instalamos vercel 
 
 `npm i -g vercel`
 
 
 **Ejercicio 3:**
+Tomar alguna de las funciones de prueba de Netlify, y hacer despliegues de prueba con el mismo.
