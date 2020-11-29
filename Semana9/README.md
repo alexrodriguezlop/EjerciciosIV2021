@@ -89,6 +89,8 @@ Instalamos vercel
 
 `npm i -g vercel`
 
+Podemos ejecutar la orden `vercel` para crear nuestro proyecto.
+
 
 **Ejercicio 3:**
 Tomar alguna de las funciones de prueba de Netlify, y hacer despliegues de prueba con el mismo.
@@ -127,6 +129,16 @@ En este caso todos los ajuste por defecto van acordes a nuestras necesidades.
 El sitio ha sido creado.
 
 ![a](14.png) 
+
+Posteriormente debemos crear el fichero de configuración de netlify en nuestro repositorio para indicarle algunos parámetros como la ruta de la función:
+
+```
+[build]
+
+  functions = "./Semana9/functions"
+```
+
+El fichero se llamará **netlify.toml**.
 
 Verificamos que el [despliegue](https://stupefied-feynman-adc3bc.netlify.app/.netlify/functions/app?name=ALEX) ha sido correcto y la función funciona:
 
